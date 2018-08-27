@@ -1,0 +1,108 @@
+
+* {
+    font-family: Arial, "sans-serif";
+    font-weight: 700;
+    line-height: 1.5;
+}
+body {
+    background-image: url(../media/bghygge.jpg);
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+
+    background-size: cover;
+
+    background-color: #044634;
+}
+
+h1 {
+
+    text-transform: uppercase;
+    font-size: 43px;
+    letter-spacing: .24em;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.sub-header {
+    font-size: 31px;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+/*
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    min-height: 100%;
+}
+*/
+
+
+#vidContent {
+    position: fixed;
+    bottom: 45%;
+    background: rgba(0, 0, 0, 0.0);
+    color: #f1f1f1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+/* Style the button used to pause/play the video */
+/*#myBtn {
+    margin-top: 1em;
+    width: 12em;
+    padding: 10px;
+    border: none;
+    background: #ffffff;
+    color: rgb(4, 6, 5);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}*/
+
+img{
+    margin-left: 1em;
+    height: 5em;
+}
+
+#logoContent{
+    position: fixed;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+@media only screen and (max-width: 967px) {
+  body {
+  
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+}
+
+
